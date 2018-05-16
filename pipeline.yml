@@ -1,0 +1,4 @@
+steps:
+  - command: "sleep 300"
+    concurrency: 1
+    concurrency_group: "mutex"
